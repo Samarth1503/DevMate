@@ -1,0 +1,22 @@
+[tool.ruff]
+# Target Python version
+target-version = "py311"
+
+# Maximum line length according to PEP 8 / Black style
+line-length = 88
+
+# Directory exclusions
+exclude = [
+    ".venv",
+    "venv",
+    "__pycache__",
+    ".git"
+]
+
+[tool.ruff.lint]
+# Select rules: E (Error), F (Pyflakes), I (isort/imports), UP (pyupgrade), "W" (Warnings)
+select = ["E", "F", "I", "UP", "W"]
+ignore = []
+
+[tool.ruff.lint.isort]
+combine-as-imports = true
