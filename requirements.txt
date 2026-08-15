@@ -1,0 +1,22 @@
+# Discord Framework
+discord.py>=2.3.2
+cogwatch>=3.0.0
+
+# Asynchronous Database & Cache Drivers
+asyncpg>=0.29.0
+redis[hiredis]>=5.0.0
+
+# Configuration & Utilities
+python-dotenv>=1.0.0
+pydantic-settings>=2.0.0
+
+# Code Quality & PEP 8
+ruff>=0.3.0
+pre-commit>=3.6.0
+
+# AI and Vector DB
+google-genai>=0.1.0
+chromadb>=0.4.0
+
+# HTTP Client
+aiohttp>=3.8.0
